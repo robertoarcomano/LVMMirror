@@ -1,4 +1,4 @@
-# LVMMirror
+# LVM Mirror
 Quickstart and recovery LVM Mirror (RAID1) on Linux
 
 ## 1. Init Raid Device
@@ -24,7 +24,7 @@ Quickstart and recovery LVM Mirror (RAID1) on Linux
 ```mount /dev/vgraid/lvraid /media/berto/lvraid```
 
 ## COPY NEW FILES ON LV
-## REINSERT OLD PV TO RESYNC
+## INSERT NEW PV TO RESYNC
 
 ## 3. Recover Raid With New Device /dev/sdc:
 #### Create PV
