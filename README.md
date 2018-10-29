@@ -14,6 +14,7 @@ Quickstart and recovery LVM Mirror (RAID1) on Linux
 ```mkfs.ext4 /dev/vgraid/lvraid```
 #### 1.6. Mount lv
 ```mount /dev/vgraid/lvraid /media/berto/lvraid```
+<br />
 
 ## 2. Read Data From 1 Disk Only
 #### 2.1. Remove Missing PV from VG
@@ -22,9 +23,11 @@ Quickstart and recovery LVM Mirror (RAID1) on Linux
 ```lvconvert -m0 /dev/vgraid/lvraid -y```
 #### 2.3. Mount LV With Single PV
 ```mount /dev/vgraid/lvraid /media/berto/lvraid```
+<br />
 
 ## COPY NEW FILES ON LV
 ## INSERT NEW PV TO RESYNC
+<br />
 
 ## 3. Recover Raid With New Device /dev/sdc:
 #### Create PV
